@@ -50,3 +50,9 @@
     第三步，通过pyecharts的Graph图绘制力导向图实现《基督山伯爵》人物共现可视化
 
 [作业5链接](https://aptx4869ldz.github.io/word_co-occurrence/output/关系图-《基督山伯爵》人物.html)
+
+## 6、作业6
+    作业要求：用html设计一个网页，包含输入框和按钮，实现搜索引擎功能
+    作业实现：通过html中的<input>标签实现输入框和按钮，type分别为'text'和'submit'，同时通过设置style调整其大小使其更加美观；通过<form>标签实现与服务器的通话，发送表单数据的对象地址为https://www.baidu.com/s, 即百度搜索引擎；在输入框和按钮上方加入一张百度的logo使得页面更加逼真；插入背景图，是页面更加具有观赏性
+    
+[作业6链接](https://aptx4869ldz.github.io/mybaidu/mybaidu.html)
