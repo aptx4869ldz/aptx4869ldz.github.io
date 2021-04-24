@@ -49,4 +49,4 @@
     第二步，建立一个字典relation_dict用于存储人物共现的关系，relation_dict的key（记为k1）为人名，value（记为v1）同样是字典，v1中的key（记为k2）对应的value（记为v2）代表k1和k2共现的次数为v2；对line_name_list中每个元素即每一段的人物做遍历，对某一个人物，遍历本段其他所有人物，统计共现次数并加到relation_dict中
     第三步，通过pyecharts的Graph图绘制力导向图实现《基督山伯爵》人物共现可视化
 
-[作业5链接](https://html-design.github.io/word_co-occurrence/output/关系图-《基督山伯爵》人物.html)
+[作业5链接](https://aptx4869ldz.github.io/word_co-occurrence/output/关系图-《基督山伯爵》人物.html)
