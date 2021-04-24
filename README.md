@@ -41,3 +41,12 @@
               加入timeline以实现年度的变更。
               
 [作业4链接](https://aptx4869ldz.github.io/output/mission_4.html)
+
+## 5、作业5
+    作业要求：选择一部文学作品，分析人物“共现”，生成关系图
+    数据信息：分析文本为《基督山伯爵》全书，总计约95w字
+    作业实现：第一步，通过jieba中文分词库中的posseg.cut函数对每个段落进行分词，得到分词结果以及每个词的词性，选取其中词性为人名('nr')的词，从而生成每个段落出现的人物列表（格式为[[第一段出现的人物], [第二段出现的人物], ...]line_name_list以及人物出现的总次数name_cnt_dict
+    第二步，建立一个字典relation_dict用于存储人物共现的关系，relation_dict的key（记为k1）为人名，value（记为v1）同样是字典，v1中的key（记为k2）对应的value（记为v2）代表k1和k2共现的次数为v2；对line_name_list中每个元素即每一段的人物做遍历，对某一个人物，遍历本段其他所有人物，统计共现次数并加到relation_dict中
+    第三步，通过pyecharts的Graph图绘制力导向图实现《基督山伯爵》人物共现可视化
+
+[作业5链接](https://html-design.github.io/word_co-occurrence/output/关系图-《基督山伯爵》人物.html)
