@@ -61,4 +61,4 @@
     作业要求：设计一个网页，用CSS美化
     作业实现：网页内容是世界各地的一些风景，共6张。下面按照页面元素介绍CSS内容。首先是标题，本页面只使用了一级标题h1，因此在CSS中对h1进行了设置：绿色字、居中、加粗、大小50px、字体Arial；接下来是三个大的div，在CSS中定义为row-div类，宽度为100%，从上往下排列；在每个row-div中，又一左一右包含两个div：left-div和right-div，在CSS中高度都为50%，宽度都为45%，一个排列在左(float=left)，一个排列在右，设置left和right调整其在row-div的位置使其分布对称；每个小的div中包含一张图片以及一句对图片的描述，其中左边的图片对应的描述是英文，格式为蓝色字、居中、斜体、加粗、大小15px、字体Zapfino，而Zapfino并非CSS自带语言，因此在网上下载后通过@font-face导入CSS中；右边的图片对应的描述是中文，格式为红色字、居中、斜体、加粗、字体大小25px、字体华为行楷(STXingkai)
     
-[作业7链接](https://aptx4869ldz.github.io/css-design/mywebsite.html)
+[作业7链接](https://aptx4869ldz.github.io/css-design/mywebsite_AS.html)
